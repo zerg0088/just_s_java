@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa"
+    tools:context="fast.sjcompany.test.MainActivity">
+
+    <ScrollView
+        android:background="#fafafa"
+        android:id="@+id/scrollview"
+        style="@style/scrollbar_shape_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:background="@drawable/more_click"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/moreButton"
+                    android:src="@mipmap/more"/>
+            </RelativeLayout>
+            <TextView
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="100dp"
+                android:letterSpacing="0"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="#505050"
+                android:text="그냥"
+                android:fontFamily="@font/light"
+                android:textSize="28sp"/>
+            <TextView
+                android:layout_marginLeft="22dp"
+                android:letterSpacing="0"
+                android:layout_marginTop="0dp"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="#505050"
+                android:text="특수문자"
+                android:textSize="28sp"
+                android:fontFamily="@font/light"
+                android:layout_marginBottom="50dp" />
+
+            <TableLayout
+                android:layout_marginRight="20dp"
+                android:id="@+id/mainTableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="*">
+            </TableLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

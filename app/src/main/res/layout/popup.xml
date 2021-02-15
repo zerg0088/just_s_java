@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="109dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/infoButton"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="109dp"
+        android:layout_height="32dp"
+        android:textSize="14sp"
+        android:textColor="#545454"
+        android:textAlignment="textEnd"
+        android:paddingLeft="0dp"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="16dp"
+        android:text="앱 정보"
+        android:theme="@style/AppTheme.GreenRipple" />
+
+    <Button
+        android:id="@+id/seriesButton"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="109dp"
+        android:layout_height="32dp"
+        android:textSize="14sp"
+        android:textColor="#545454"
+        android:textAlignment="textEnd"
+        android:paddingLeft="0dp"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="16dp"
+        android:text="그냥 시리즈"
+        android:theme="@style/AppTheme.GreenRipple" />
+
+</LinearLayout>
